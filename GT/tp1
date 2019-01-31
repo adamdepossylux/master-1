@@ -1,0 +1,17 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Chargement d’une image en Matlab:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+load gatlin2;
+% -> L’image est chargee dans la variable X
+%Autres images:
+%load clown; load gatlin; load mandrill;
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Visualisation:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+imagesc(X);
+colormap gray;
+%pour voir l’image en niveaux de gris
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Pour ouvrir une deuxieme figure:
+%%%%%%%%%%%%%%%%%%%%%
+figure(2)
